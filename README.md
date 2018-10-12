@@ -8,7 +8,7 @@ How to install
 ```
 $ cd
 $ git clone https://github.com/gto76/my-linux-setup.git
-$ cd my-linux-setup 
+$ cd my-linux-setup
 $ ./install-linux
 $ bash
 ```
@@ -19,8 +19,8 @@ They are grouped by the target operating system.
 
 #### Linux
 This folder contains files that work with standard Linux distributions. They configure following programs:
-* [**Awesome**](/conf-files/linux/awesome) - a window manager. 
-*  [**Bash**](/conf-files/linux/bash) - main Linux shell (program that interprets what you type in terminal). 
+* [**Awesome**](/conf-files/linux/awesome) - a window manager.
+*  [**Bash**](/conf-files/linux/bash) - main Linux shell (program that interprets what you type in terminal).
 * Nrss - RSS feed reader
 * Tmux - terminal multiplexer (program that lets you use multiple terminals inside one, useful when connecting to other computer using *ssh*)
 * Vim - The text editor
@@ -30,15 +30,15 @@ This folder contains files that work with standard Linux distributions. They con
 Configuration files intended for systems providing only a slimmed down collection of Linux commands, called BusyBox.
 
 #### Windows
-These files are used by shell programs that are made to simulate a Linux environment on windows, like *Git Shell*. Only file that actually effects windows is *AutoHotkey.ahk*; a config file for *AutoHotkey* program that enables you to set system wide keyboard shortcuts.  
+These files are used by shell programs that are made to simulate a Linux environment on windows, like *Git Shell*. Only file that actually effects windows is *AutoHotkey.ahk*; a config file for *AutoHotkey* program that enables you to set system wide keyboard shortcuts.
 
 #### Debian
-These files are intended to automatize the Debian Linux installation.   
+These files are intended to automatize the Debian Linux installation.
 For details see [**README**](conf-files/debian).
 
 Text Files
 ----------
-Textfiles with notes about various Linux commands, configurations, tools, etc.  
+Textfiles with notes about various Linux commands, configurations, tools, etc.
 For details see [**README**](text-files).
 
 Install script
@@ -50,11 +50,12 @@ if [ -f ~/.my_bashrc ]; then
 fi
 ```
 This way aliases and functions in [**`.my_bashrc`**](/conf-files/linux/bash/.my_bashrc) get loaded at terminal startup. [**`.my_bashrc`**](/conf-files/linux/bash/.my_bashrc) then loads other two files ([**`.my_bash_aliases`**](/conf-files/linux/bash/.my_bash_aliases) and [**`.my_bashrc_personal`**](/conf-files/linux/bash/.my_bashrc_personal)) in a same manner.
-Also following line: `so ~/.my_vimrc` is added to the end of a `.vimrc` file, which loads [**`.my_vimrc`**](/conf-files/linux/bash/.my_vimrc) at Vim startup. 
+Also following line: `so ~/.my_vimrc` is added to the end of a `.vimrc` file, which loads [**`.my_vimrc`**](/conf-files/linux/bash/.my_vimrc) at Vim startup.
 
 Of course you can instead create links yourself, or even just copy the files if you don't intend to commit changes.
 
 # Hello, world.
+# Hi, this is world. How may I help you?
 
 
 
