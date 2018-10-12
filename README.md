@@ -54,10 +54,7 @@ Also following line: `so ~/.my_vimrc` is added to the end of a `.vimrc` file, wh
 
 Of course you can instead create links yourself, or even just copy the files if you don't intend to commit changes.
 
-# Just comment from Egor.
-# Second comment from Egor.
-# Third comment from Egor.
-
+# Hello, world.
 
 
 
